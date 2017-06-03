@@ -2,6 +2,14 @@
 Usage example of [webpack-typescript-lib-quickstart](https://github.com/shellyln/webpack-typescript-lib-quickstart).
 
 
+[![npm](https://img.shields.io/npm/v/wp-quickstart-caller-example.svg)](https://www.npmjs.com/package/wp-quickstart-caller-example)
+[![GitHub release](https://img.shields.io/github/release/shellyln/wp-quickstart-caller-example.svg)](https://github.com/shellyln/wp-quickstart-caller-example/releases)
+[![Travis](https://img.shields.io/travis/shellyln/wp-quickstart-caller-example.svg)](https://travis-ci.org/shellyln/wp-quickstart-caller-example)
+[![GitHub forks](https://img.shields.io/github/forks/shellyln/wp-quickstart-caller-example.svg?style=social&label=Fork)](https://github.com/shellyln/wp-quickstart-caller-example/fork)
+[![GitHub stars](https://img.shields.io/github/stars/shellyln/wp-quickstart-caller-example.svg?style=social&label=Star)](https://github.com/shellyln/wp-quickstart-caller-example)
+
+---
+
 ### Features
 * Use and extend `webpack-typescript-lib-quickstart` library.  
   See `src/index.ts` and `src/lib/MathTwo.ts`.
