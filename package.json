@@ -20,7 +20,8 @@
     "build:dist:prod": "cross-env NODE_ENV=production webpack -p --config webpack.config.js",
     "clean": "rimraf ./bin ./declarations ./dist",
     "test": "node --harmony ./node_modules/jasmine-node/bin/jasmine-node --verbose bin/spec",
-    "start": "node --harmony ./bin/app.js"
+    "start": "node --harmony ./bin/app.js",
+    "prepublish": "run-s --silent rebuild test clean"
   },
   "repository": {
     "type": "git",
