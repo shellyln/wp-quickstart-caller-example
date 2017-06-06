@@ -2,7 +2,20 @@
   "name": "wp-quickstart-caller-example",
   "version": "0.1.1",
   "description": "Usage of webpack-typescript-lib-quickstart.",
-  "keywords": [],
+  "keywords": [
+    "Quickstart",
+    "Webpack",
+    "Webpack2",
+    "Node",
+    "TypeScript",
+    "Library",
+    "SCSS",
+    "PostCSS",
+    "CI",
+    "scaffolding",
+    "Getting started",
+    "Starter"
+  ],
   "main": "./bin/index.js",
   "typings": "./declarations/index.d.ts",
   "types": "./declarations/index.d.ts",
@@ -21,7 +34,8 @@
     "clean": "rimraf ./bin ./declarations ./dist",
     "test": "node --harmony ./node_modules/jasmine-node/bin/jasmine-node --verbose bin/spec",
     "start": "node --harmony ./bin/app.js",
-    "prepublish": "run-s --silent rebuild test clean"
+    "prepublish": "run-s --silent rebuild test clean",
+    "watch": "webpack --config webpack.config.js --watch"
   },
   "repository": {
     "type": "git",

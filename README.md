@@ -160,7 +160,7 @@ Usage example of [webpack-typescript-lib-quickstart](https://github.com/shellyln
 
 
 # Debugging with Webpack
-1. `./node_modules/.bin/webpack --config webpack.config.js --watch`
+1. `npm run watch`
 1. Run debbuger.
 1. Fix anything and save it.
 1. Go back to line 2.
@@ -209,6 +209,7 @@ Usage example of [webpack-typescript-lib-quickstart](https://github.com/shellyln
 * clean : Clean all output.
 * test : Run unit tests.
 * start : Run codes for debugging (bin/app.js).
+* watch : Build distribution output and watch continuously.
 
 
 
