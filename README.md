@@ -24,7 +24,7 @@ Usage example of [webpack-typescript-lib-quickstart](https://github.com/shellyln
 * Compile SCSS, auto-prefixing (PostCSS), and output as single CSS file with source map.
 
 
-* Run unit tests ([jasmine-node](https://www.npmjs.com/package/jasmine-node)).
+* Run unit tests ([jasmine](https://jasmine.github.io/)).
 
 
 * Include CI configurations
@@ -173,10 +173,11 @@ Usage example of [webpack-typescript-lib-quickstart](https://github.com/shellyln
 * /bin/index_single.js : Node module javascript single file (CommonJS) that build+packed by Webpack.
 * /dist/ : Output directory of distribution javascript file (AMD ; for browsers) and stylesheet file that build+packed by Webpack.
 * /declarations/ : Output directory of TypeScript declaration.
+* /spec/ : Directory of [jasmine](https://jasmine.github.io/) configurations.
 * /src/index.ts : Library main file.
 * /src/app.ts : Debugger entry point file.
 * /src/lib/ : Directory of library program codes.
-* /src/spec/ : Directory of unit test codes. We use [jasmine-node](https://www.npmjs.com/package/jasmine-node).
+* /src/spec/ : Directory of unit test codes. We use [jasmine](https://jasmine.github.io/).
 * /src/assets/scss/ : Directory of stylesheet source.
 * /src/assets/ : Assets requiring from example code (lib/AssetsLoader) that packed to JS file by Webpack.
 * /src/views/ : Assets requiring from example code (lib/AssetsLoader) that packed to JS file by Webpack.

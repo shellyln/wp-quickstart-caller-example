@@ -33,7 +33,7 @@
     "build:dist:prod": "cross-env NODE_ENV=production webpack -p --config webpack.config.js",
     "clean": "rimraf ./bin ./declarations ./dist",
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "test": "node --harmony ./node_modules/jasmine-node/bin/jasmine-node --verbose bin/spec",
+    "test": "jasmine",
     "start": "node --harmony ./bin/app.js",
     "prepublish": "run-s --silent rebuild test clean",
     "watch": "webpack --config webpack.config.js --watch"
@@ -49,8 +49,6 @@
   "license": "MIT",
   "homepage": "https://github.com/shellyln/wp-quickstart-caller-example",
   "devDependencies": {
-    "to-string-loader": "^1.1.5",
-    "tslint": "^5.4.3",
     "webpack-typescript-lib-quickstart": "^0.1.0"
   },
   "dependencies": {}
