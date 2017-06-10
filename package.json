@@ -32,7 +32,8 @@
     "build:dist:dev": "webpack --config webpack.config.js",
     "build:dist:prod": "cross-env NODE_ENV=production webpack -p --config webpack.config.js",
     "clean": "rimraf ./bin ./declarations ./dist",
-    "test": "node --harmony ./node_modules/jasmine-node/bin/jasmine-node --verbose bin/spec",
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "test": "jasmine",
     "start": "node --harmony ./bin/app.js",
     "prepublish": "run-s --silent rebuild test clean",
     "watch": "webpack --config webpack.config.js --watch"
