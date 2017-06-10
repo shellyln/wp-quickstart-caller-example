@@ -49,7 +49,7 @@
   "license": "MIT",
   "homepage": "https://github.com/shellyln/wp-quickstart-caller-example",
   "devDependencies": {
-    "webpack-typescript-lib-quickstart": "^0.1.0"
+    "webpack-typescript-lib-quickstart": "^0.1.3"
   },
   "dependencies": {}
 }
