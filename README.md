@@ -4,7 +4,7 @@ Usage example of [webpack-typescript-lib-quickstart](https://github.com/shellyln
 
 [![npm](https://img.shields.io/npm/v/wp-quickstart-caller-example.svg)](https://www.npmjs.com/package/wp-quickstart-caller-example)
 [![GitHub release](https://img.shields.io/github/release/shellyln/wp-quickstart-caller-example.svg)](https://github.com/shellyln/wp-quickstart-caller-example/releases)
-[![Travis](https://img.shields.io/travis/shellyln/wp-quickstart-caller-example.svg)](https://travis-ci.org/shellyln/wp-quickstart-caller-example)
+[![Travis](https://img.shields.io/travis/shellyln/wp-quickstart-caller-example/master.svg)](https://travis-ci.org/shellyln/wp-quickstart-caller-example)
 [![GitHub forks](https://img.shields.io/github/forks/shellyln/wp-quickstart-caller-example.svg?style=social&label=Fork)](https://github.com/shellyln/wp-quickstart-caller-example/fork)
 [![GitHub stars](https://img.shields.io/github/stars/shellyln/wp-quickstart-caller-example.svg?style=social&label=Star)](https://github.com/shellyln/wp-quickstart-caller-example)
 
@@ -15,18 +15,12 @@ Usage example of [webpack-typescript-lib-quickstart](https://github.com/shellyln
   See `src/index.ts` and `src/lib/MathTwo.ts`.
 * Extend `webpack-typescript-lib-quickstart`'s stylesheet.  
   See `src/assets/scss/main.scss`.
-
-
 * Compile TypeScript source and output as CommonJS format with declaration information and source map.
 * Compile TypeScript source and output as CommonJS format single file with declaration information source map.  
   (Declaration information settings are disabled. See tsconfig-webpack-node-dist.json.)
 * Compile TypeScript source and output as AMD format single file with source map.
 * Compile SCSS, auto-prefixing (PostCSS), and output as single CSS file with source map.
-
-
 * Run unit tests ([jasmine](https://jasmine.github.io/)).
-
-
 * Include CI configurations
   ([Travis CI](https://travis-ci.org/),
    [bitbucket pipelines](https://www.atlassian.com/software/bitbucket/features/pipelines),
